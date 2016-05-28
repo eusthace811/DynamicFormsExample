@@ -1,3 +1,5 @@
 <h1>
   {{title}}
 </h1>
+
+<dynamic-form [fields]="fields" (send)="save($event);"></dynamic-form>
